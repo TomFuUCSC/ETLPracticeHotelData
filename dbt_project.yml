@@ -1,0 +1,14 @@
+name: "demo"
+version: "1.0.0"
+profile: "demo"
+
+seed-paths: ["data"]
+
+models:
+  demo:
+    transform:
+      schema: transform
+      materialized: view
+    analysis:
+      schema: analysis
+      materialized: view
